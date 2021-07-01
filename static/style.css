@@ -1,0 +1,64 @@
+.mid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+body {
+	background-image: url(../static/images/subpg.jpg);
+}
+
+.card {
+	background-color: #adaaaa;
+	color: white;
+}
+
+.font {
+	font-size: 25px;
+}
+
+.block {
+	display: flex;
+}
+
+.pad {
+	padding: 30px;
+}
+
+#small {
+	width: 20px;
+	height: 20px;
+}
+
+#cgbtn {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+#cgbtn:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+#btn{
+	background-color: crimson;
+}
+
+@media screen and (max-width: 768px) {
+	.block {
+		display: block;
+	}
+	.pad {
+		padding: 5px;
+	}
+	.margin {
+		margin-top: 10px;
+		display: flex;
+		justify-content: center;
+	}
+	.goup{
+		margin-top: -50px;
+	}
+}
